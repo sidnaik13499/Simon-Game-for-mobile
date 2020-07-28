@@ -53,7 +53,7 @@ function nextSequence(){
   var randomChoosenColor = buttonColors[randomNumber];
   gamePattern.push(randomChoosenColor);
 
-  $("#"+randomChoosenColor).fadeIn(100).fadeOut(100).fadeIn(100);
+  $("#"+randomChoosenColor).fadeIn(200).fadeOut(300).fadeIn(200);
   playSound(randomChoosenColor);
 }
 
